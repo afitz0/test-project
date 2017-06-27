@@ -3,4 +3,5 @@ all:
 
 deploy:
 	@echo "deploying..."
+	cp -r src/* /var/www/html/
 
